@@ -11,7 +11,7 @@ import shutil
 
 DATA_SETS = ['Bochum', 'Dortmund']
 
-DATASET_BASE_PATH = "./dltd"
+DATASET_BASE_PATH = "./dtld"
 
 TRAIN_VAL_SPLIT = 0.8 # [%]
 
