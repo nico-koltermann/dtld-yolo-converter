@@ -3,7 +3,7 @@
 Converts the datasets of the dtld for a yolo format to train a model. This dataset is offered by the Uni-Ulm.
 
 Link to the Dataset: 
-- [website](https://www.uni-ulm.de/en/in/institute-of-measurement-control-and-microtechnology/research/data-sets/driveu-traffic-light-dataset/)
+- [Website](https://www.uni-ulm.de/en/in/institute-of-measurement-control-and-microtechnology/research/data-sets/driveu-traffic-light-dataset/)
 - [Github](https://github.com/julimueller/dtld_parsing)
 
 ## Using the converter
@@ -11,7 +11,7 @@ Link to the Dataset:
 Install dependencies: 
 
 ```
-pip3 install ultralytics[all] matplotlib pandas opencv-python
+pip3 install ultralytics[all] matplotlib pandas opencv-python "numpy<2.0"
 ```
 
 First use the ```copy_data.py``` to copy the dtld data for a yolo. In the file, adjust the parameter of ```DATASET_BASE_PATH```
